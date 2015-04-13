@@ -50,3 +50,10 @@ aside li a {
 	float: left;
 	width: 70%;
 }
+
+/************ footer ***************/
+
+footer {
+	padding: 25px;
+	clear: both;
+}

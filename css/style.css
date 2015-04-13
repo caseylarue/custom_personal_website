@@ -1,0 +1,52 @@
+#container {
+	width: 80%;
+/*	background-color: yellow;*/
+	margin: 0px auto;
+	text-align: center;
+	overflow: hidden;
+	font-family: monospace;
+}
+
+a:link, a:visited, a:link:active, a:visited:active {
+	text-decoration: none;
+	color: black;
+}
+
+/************ navigation ***************/
+#nav a:hover {
+	background-color: pink;
+	color: white;
+}
+
+#nav li {
+	display: inline;
+	padding: 10px;
+}
+
+/************ social media ***************/
+
+aside li:nth-child(3) a {
+	color: orange;
+}
+
+aside {
+	float: left;
+	color: white;
+}
+
+aside ul {
+	list-style: none;
+	padding-left: 5px;
+	text-align: left;
+}
+
+aside li a {
+	color: white;
+}
+
+/************ content ***************/
+
+#content {
+	float: left;
+	width: 70%;
+}
